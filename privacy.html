@@ -23,7 +23,7 @@
 
 <section id="ru" lang="ru">
 <h1>Политика конфиденциальности EnergoAudit UZ</h1>
-<p class="muted">Действует с 08.10.2026. Приложение для энергоаудиторов жилых домов (Android, Windows).</p>
+<p class="muted">Действует с 10.10.2026. Приложение для энергоаудиторов жилых домов (Android, Windows).</p>
 
 <h2>Кто отвечает за данные</h2>
 <p>Оператор данных: Shadow Team. Связь по вопросам данных: <a href="mailto:energoaudituz@gmail.com">energoaudituz@gmail.com</a>.</p>
@@ -32,31 +32,34 @@
 <ul>
   <li><b>Аккаунт:</b> адрес электронной почты, тариф и срок его действия, расход лимитов (число аудитов, запросы к ИИ).</li>
   <li><b>Устройство:</b> обезличенный хеш идентификатора устройства (необратимый, по нему нельзя узнать само устройство). Нужен, чтобы бесплатные лимиты нельзя было обойти заведением нескольких аккаунтов.</li>
+  <li><b>Подписка:</b> если вы оформили платный тариф через Google Play, мы храним код подписки, токен покупки, состояние и срок действия. Номера банковских карт и платёжные данные мы не получаем: платёж проводит Google Play.</li>
   <li><b>Ваши аудиты:</b> данные об обследуемых объектах (адрес, кадастровый номер, координаты, имя владельца, результаты измерений и расчётов) и фотографии, которые вы добавляете.</li>
   <li><b>Местоположение:</b> координаты используются только когда вы сами нажимаете «Моё местоположение» или выбираете точку на карте, и сохраняются в аудите.</li>
 </ul>
 <p>Мы не собираем рекламные идентификаторы, не показываем рекламу и не продаём данные.</p>
 
 <h2>Зачем</h2>
-<p>Чтобы вы могли вести аудиты, продолжать работу на разных устройствах, получать расчёты и отчёты, распознавать фото с помощью ИИ, а мы могли учитывать тарифы и лимиты и защищать сервис от злоупотреблений.</p>
+<p>Чтобы вы могли вести аудиты, продолжать работу на разных устройствах, получать расчёты и отчёты, распознавать фото с помощью ИИ, оформлять платные тарифы подпиской, а мы могли учитывать тарифы и лимиты и защищать сервис от злоупотреблений.</p>
 
 <h2>Кому данные передаются</h2>
 <ul>
   <li><b>Supabase</b>: хранение аккаунта, аудитов и фотографий на серверах за пределами Узбекистана (регион: Индия).</li>
   <li><b>Anthropic (модель Claude)</b>: фото и скриншоты, которые вы сами отправляете на распознавание, обрабатываются поставщиком искусственного интеллекта за границей. Не отправляйте снимки, которые нельзя передавать третьим лицам.</li>
   <li><b>Почтовая служба</b>: для отправки писем с кодом подтверждения на вашу почту.</li>
+  <li><b>Google (Google Play)</b>: подписка оформляется и оплачивается через Google Play. Мы передаём Google токен покупки, чтобы проверить подписку, а Google сообщает нам, когда она продлена, отменена или закончилась.</li>
   <li><b>OpenStreetMap и Nominatim</b>: карта и адрес по координатам (передаются координаты выбранной точки).</li>
   <li><b>davreestr.uz</b>: при поиске по кадастровому номеру на сайт отправляется введённый кадастровый номер.</li>
 </ul>
 <p>Пользуясь приложением и принимая условия использования, вы соглашаетесь на хранение и передачу данных за границу. Пользователь отвечает за получение согласия владельцев объектов и других людей на съёмку и обработку их данных.</p>
 
 <h2>Где и сколько хранятся данные</h2>
-<p>Аудиты и фото хранятся на вашем устройстве и, когда есть связь, копируются на сервер. Данные хранятся, пока существует ваш аккаунт.</p>
+<p>Аудиты и фото хранятся на вашем устройстве и, когда есть связь, копируются на сервер. Данные, включая данные подписки, хранятся, пока существует ваш аккаунт.</p>
 
 <h2>Ваши права и удаление данных</h2>
 <ul>
   <li>Вы можете просматривать и исправлять свои данные в приложении.</li>
   <li><b>Удалить аккаунт и все данные</b> можно в приложении: «Настройки» → «Удалить аккаунт». Аккаунт, аудиты и фото удаляются безвозвратно на сервере и на устройстве.</li>
+  <li><b>Удаление аккаунта не отменяет подписку Google Play автоматически:</b> отмените её в Google Play («Платежи и подписки» → «Подписки»), иначе оплата продолжит списываться.</li>
   <li>Если войти в приложение не получается, отправьте запрос по адресу <a href="mailto:energoaudituz@gmail.com">energoaudituz@gmail.com</a> (инструкция: <a href="delete-account.html">страница удаления аккаунта</a>).</li>
   <li>После удаления на сервере остаётся только обезличенный хеш устройства и дата засчитанных аудитов (без почты, имён и самих аудитов): он нужен для учёта лимитов бесплатного тарифа.</li>
   <li>Отозвать согласие на обработку данных можно тем же способом.</li>
@@ -70,14 +73,14 @@
 
 <h2>Изменения</h2>
 <p>Политика может обновляться. Актуальная версия всегда по этому адресу, дата внизу страницы.</p>
-<p class="muted">Версия от 08.10.2026.</p>
+<p class="muted">Версия от 10.10.2026.</p>
 </section>
 
 <hr>
 
 <section id="uz" lang="uz">
 <h1>EnergoAudit UZ maxfiylik siyosati</h1>
-<p class="muted">08.10.2026 dan kuchda. Turar joy binolari energoauditorlari uchun ilova (Android, Windows). Tarjima ma'lumot uchun; nomuvofiqlik bo'lsa, rus tilidagi matn ustun turadi.</p>
+<p class="muted">10.10.2026 dan kuchda. Turar joy binolari energoauditorlari uchun ilova (Android, Windows). Tarjima ma'lumot uchun; nomuvofiqlik bo'lsa, rus tilidagi matn ustun turadi.</p>
 
 <h2>Ma'lumotlar uchun kim javob beradi</h2>
 <p>Ma'lumotlar operatori: Shadow Team. Ma'lumotlar bo'yicha aloqa: <a href="mailto:energoaudituz@gmail.com">energoaudituz@gmail.com</a>.</p>
@@ -86,31 +89,34 @@
 <ul>
   <li><b>Akkaunt:</b> elektron pochta manzili, tarif va uning amal qilish muddati, limitlar sarfi (auditlar soni, SI so'rovlari).</li>
   <li><b>Qurilma:</b> qurilma identifikatorining shaxssizlashtirilgan xeshi (qaytarib bo'lmaydi, u orqali qurilmaning o'zini aniqlab bo'lmaydi). Bir nechta akkaunt ochib bepul limitlarni aylanib o'tishga yo'l qo'ymaslik uchun kerak.</li>
+  <li><b>Obuna:</b> Google Play orqali pullik tarifni rasmiylashtirsangiz, obuna kodi, xarid tokeni, holati va amal qilish muddatini saqlaymiz. Bank kartalari raqamlari va to'lov ma'lumotlarini olmaymiz: to'lovni Google Play amalga oshiradi.</li>
   <li><b>Auditlaringiz:</b> tekshirilayotgan obyektlar haqidagi ma'lumotlar (manzil, kadastr raqami, koordinatalar, egasining ismi, o'lchov va hisob natijalari) hamda siz qo'shgan suratlar.</li>
   <li><b>Joylashuv:</b> koordinatalar faqat siz o'zingiz «Mening joylashuvim» tugmasini bossangiz yoki xaritada nuqtani tanlasangiz ishlatiladi va auditda saqlanadi.</li>
 </ul>
 <p>Reklama identifikatorlarini yig'maymiz, reklama ko'rsatmaymiz va ma'lumotlarni sotmaymiz.</p>
 
 <h2>Nima uchun</h2>
-<p>Siz auditlar yuritishingiz, ishni turli qurilmalarda davom ettirishingiz, hisob va hisobotlar olishingiz, suratlarni SI yordamida tanishingiz hamda biz tariflar va limitlarni hisobga olishimiz va xizmatni suiiste'moldan himoya qilishimiz uchun.</p>
+<p>Siz auditlar yuritishingiz, ishni turli qurilmalarda davom ettirishingiz, hisob va hisobotlar olishingiz, suratlarni SI yordamida tanishingiz, pullik tariflarni obuna orqali rasmiylashtirishingiz hamda biz tariflar va limitlarni hisobga olishimiz va xizmatni suiiste'moldan himoya qilishimiz uchun.</p>
 
 <h2>Ma'lumotlar kimga uzatiladi</h2>
 <ul>
   <li><b>Supabase</b>: akkaunt, auditlar va suratlarni O'zbekistondan tashqaridagi serverlarda saqlash (hudud: Hindiston).</li>
   <li><b>Anthropic (Claude modeli)</b>: tanish uchun o'zingiz yuborgan surat va skrinshotlar chet eldagi sun'iy intellekt provayderi tomonidan qayta ishlanadi. Uchinchi shaxslarga berib bo'lmaydigan suratlarni yubormang.</li>
   <li><b>Pochta xizmati</b>: pochtangizga tasdiqlash kodi bilan xat yuborish uchun.</li>
+  <li><b>Google (Google Play)</b>: obuna Google Play orqali rasmiylashtiriladi va to'lanadi. Obunani tekshirish uchun Google'ga xarid tokenini yuboramiz, Google esa obuna uzaytirilgani, bekor qilingani yoki tugaganini bizga bildiradi.</li>
   <li><b>OpenStreetMap va Nominatim</b>: xarita va koordinatalar bo'yicha manzil (tanlangan nuqta koordinatalari uzatiladi).</li>
   <li><b>davreestr.uz</b>: kadastr raqami bo'yicha qidirishda kiritilgan kadastr raqami saytga yuboriladi.</li>
 </ul>
 <p>Ilovadan foydalanib va foydalanish shartlarini qabul qilib, ma'lumotlarni chet elda saqlash va uzatishga rozilik bildirasiz. Obyekt egalari va boshqa kishilardan suratga olish hamda ma'lumotlarini qayta ishlashga rozilik olish uchun foydalanuvchi o'zi javob beradi.</p>
 
 <h2>Ma'lumotlar qayerda va qancha saqlanadi</h2>
-<p>Auditlar va suratlar qurilmangizda saqlanadi va aloqa bo'lganda serverga nusxalanadi. Ma'lumotlar akkauntingiz mavjud bo'lguncha saqlanadi.</p>
+<p>Auditlar va suratlar qurilmangizda saqlanadi va aloqa bo'lganda serverga nusxalanadi. Ma'lumotlar, jumladan obuna ma'lumotlari, akkauntingiz mavjud bo'lguncha saqlanadi.</p>
 
 <h2>Huquqlaringiz va ma'lumotlarni o'chirish</h2>
 <ul>
   <li>Ilovada o'z ma'lumotlaringizni ko'rishingiz va tuzatishingiz mumkin.</li>
   <li><b>Akkauntni va barcha ma'lumotlarni o'chirish</b> ilovada mumkin: «Sozlamalar» → «Akkauntni o'chirish». Akkaunt, auditlar va suratlar serverdan va qurilmadan qaytarib bo'lmaydigan tarzda o'chiriladi.</li>
+  <li><b>Akkauntni o'chirish Google Play obunasini avtomatik bekor qilmaydi:</b> uni Google Play'da bekor qiling («To'lovlar va obunalar» → «Obunalar»), aks holda to'lov yechilishda davom etadi.</li>
   <li>Ilovaga kira olmasangiz, <a href="mailto:energoaudituz@gmail.com">energoaudituz@gmail.com</a> manziliga so'rov yuboring (ko'rsatma: <a href="delete-account.html">akkauntni o'chirish sahifasi</a>).</li>
   <li>O'chirilgandan keyin serverda faqat qurilmaning shaxssizlashtirilgan xeshi va hisoblangan auditlar sanasi qoladi (pochta, ismlar va auditlarning o'zisiz): u bepul tarif limitlarini hisobga olish uchun kerak.</li>
   <li>Ma'lumotlarni qayta ishlashga rozilikni ham shu usulda qaytarib olish mumkin.</li>
@@ -124,7 +130,7 @@
 
 <h2>O'zgarishlar</h2>
 <p>Siyosat yangilanishi mumkin. Dolzarb versiya doim shu manzilda, sana sahifa pastida.</p>
-<p class="muted">08.10.2026 dagi versiya.</p>
+<p class="muted">10.10.2026 dagi versiya.</p>
 </section>
 </main>
 </body>
